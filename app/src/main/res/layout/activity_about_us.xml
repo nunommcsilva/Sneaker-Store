@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_au"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Performance on all Levels"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Sport has the power to transform and empower us. As one of the world’s leading sports brands, it’s only natural that we want to stand on the same playing field as the fastest athletes on the planet. To achieve that, the SNEAKER STORE brand is based on the very values that make an excellent athlete."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Our Sports"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Share excitement in Teamsports. Innovate Golf. Bring style into Running and Training and performance into Motorsports. In the light of our FOREVER FASTER mission, we bring a high level of brand heat to sports and elevate SNEAKER STORE to the next level."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Experienced Players"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="A success story is about more than just being at the right place at the right time. To play in the major league, you need an understanding for the philosophy of sports. You need to be Forever Faster. From its beginnings as a shoe factory for football boots to the supplier of successful athletes we are today, SNEAKER STORE has proven time and time again how its innovations helped athletes to perform at their best."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer_2" />
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
